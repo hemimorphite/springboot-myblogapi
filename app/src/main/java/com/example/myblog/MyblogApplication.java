@@ -47,7 +47,7 @@ public class MyblogApplication {
 		return args -> {
 			String[] categories = {"environment", "science", "technology", "entertainment","business","food","health","sports"};
 			
-			for (String cat : categories) {
+			/*for (String cat : categories) {
 				HttpGet httpGet = new HttpGet("https://newsdata.io/api/1/news");
 			
 				try {
@@ -90,7 +90,7 @@ public class MyblogApplication {
 				} catch (IOException | ParseException e) {
 					e.printStackTrace();
 				}
-			}
+			}*/
 			
 		};
 	}
